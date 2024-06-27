@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-tw">
     <head>
         <meta charset="utf-8" />
         <meta
@@ -8,7 +8,7 @@
         />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Freelancer - Start Bootstrap Theme</title>
+        <title>Hydra Kane's first bootstrap practice project</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -248,6 +248,7 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Grid Items-->
+                <!-- image root path: "./assets/img/portfolio/" -->
                 <div class="row justify-content-center">
                     <!-- Portfolio Item mql5 -->
                     <div class="col-md-6 col-lg-4 mb-5">
@@ -337,6 +338,29 @@
                             <img
                                 class="img-fluid mx-auto d-block"
                                 src="./assets/img/portfolio/pandas-logo.png"
+                                alt="..."
+                            />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item numpy -->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div
+                            class="portfolio-item mx-auto align-items-center justify-content-center"
+                            data-bs-toggle="modal"
+                            data-bs-target="#portfolioModal-numpy"
+                        >
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                            >
+                                <div
+                                    class="portfolio-item-caption-content text-center text-white"
+                                >
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img
+                                class="img-fluid mx-auto d-block"
+                                src="./assets/img/portfolio/numpy.png"
                                 alt="..."
                             />
                         </div>
@@ -1099,7 +1123,6 @@
         </div>
         <!-- Portfolio Modals-->
         <!-- 彈窗相關內容都在這裏 -->
-
         <section id="modal-sections">
             <!-- Portfolio Modal mql5 -->
             <div
@@ -1157,7 +1180,7 @@
                                             data-bs-dismiss="modal"
                                         >
                                             <i class="fas fa-xmark fa-fw"></i>
-                                            Close Window
+                                            關閉視窗
                                         </button>
                                     </div>
                                 </div>
@@ -1166,12 +1189,12 @@
                     </div>
                 </div>
             </div>
-            <!-- Portfolio Modal 2-->
+            <!-- Portfolio Modal mysql -->
             <div
                 class="portfolio-modal modal fade"
-                id="portfolioModal2"
+                id="portfolioModal-mysql"
                 tabindex="-1"
-                aria-labelledby="portfolioModal2"
+                aria-labelledby="portfolioModal-mysql"
                 aria-hidden="true"
             >
                 <div class="modal-dialog modal-xl">
@@ -1192,7 +1215,7 @@
                                         <h2
                                             class="portfolio-modal-title text-secondary text-uppercase mb-0"
                                         >
-                                            Tasty Cake
+                                            MySQL
                                         </h2>
                                         <!-- Icon Divider-->
                                         <div class="divider-custom">
@@ -1209,26 +1232,17 @@
                                         <!-- Portfolio Modal - Image-->
                                         <img
                                             class="img-fluid rounded mb-5"
-                                            src="assets/img/portfolio/cake.png"
+                                            src="./assets/img/portfolio/Mysql_logo.png"
                                             alt="..."
                                         />
                                         <!-- Portfolio Modal - Text-->
-                                        <p class="mb-4">
-                                            Lorem ipsum dolor sit amet,
-                                            consectetur adipisicing elit.
-                                            Mollitia neque assumenda ipsam
-                                            nihil, molestias magnam, recusandae
-                                            quos quis inventore quisquam velit
-                                            asperiores, vitae? Reprehenderit
-                                            soluta, eos quod consequuntur
-                                            itaque. Nam.
-                                        </p>
+                                        <p class="mb-4">my first database</p>
                                         <button
                                             class="btn btn-primary"
                                             data-bs-dismiss="modal"
                                         >
                                             <i class="fas fa-xmark fa-fw"></i>
-                                            Close Window
+                                            關閉視窗
                                         </button>
                                     </div>
                                 </div>
@@ -1237,12 +1251,12 @@
                     </div>
                 </div>
             </div>
-            <!-- Portfolio Modal 3-->
+            <!-- Portfolio Modal python -->
             <div
                 class="portfolio-modal modal fade"
-                id="portfolioModal3"
+                id="portfolioModal-python"
                 tabindex="-1"
-                aria-labelledby="portfolioModal3"
+                aria-labelledby="portfolioModal-python"
                 aria-hidden="true"
             >
                 <div class="modal-dialog modal-xl">
@@ -1263,7 +1277,7 @@
                                         <h2
                                             class="portfolio-modal-title text-secondary text-uppercase mb-0"
                                         >
-                                            Circus Tent
+                                            Python
                                         </h2>
                                         <!-- Icon Divider-->
                                         <div class="divider-custom">
@@ -1280,26 +1294,19 @@
                                         <!-- Portfolio Modal - Image-->
                                         <img
                                             class="img-fluid rounded mb-5"
-                                            src="assets/img/portfolio/circus.png"
+                                            src="./assets/img/portfolio/python-logo.jpg"
                                             alt="..."
                                         />
                                         <!-- Portfolio Modal - Text-->
                                         <p class="mb-4">
-                                            Lorem ipsum dolor sit amet,
-                                            consectetur adipisicing elit.
-                                            Mollitia neque assumenda ipsam
-                                            nihil, molestias magnam, recusandae
-                                            quos quis inventore quisquam velit
-                                            asperiores, vitae? Reprehenderit
-                                            soluta, eos quod consequuntur
-                                            itaque. Nam.
+                                            My favorite programming language.
                                         </p>
                                         <button
                                             class="btn btn-primary"
                                             data-bs-dismiss="modal"
                                         >
                                             <i class="fas fa-xmark fa-fw"></i>
-                                            Close Window
+                                            關閉視窗
                                         </button>
                                     </div>
                                 </div>
@@ -1308,12 +1315,12 @@
                     </div>
                 </div>
             </div>
-            <!-- Portfolio Modal 4-->
+            <!-- Portfolio Modal pandas -->
             <div
                 class="portfolio-modal modal fade"
-                id="portfolioModal4"
+                id="portfolioModal-pandas"
                 tabindex="-1"
-                aria-labelledby="portfolioModal4"
+                aria-labelledby="portfolioModal-pandas"
                 aria-hidden="true"
             >
                 <div class="modal-dialog modal-xl">
@@ -1334,7 +1341,7 @@
                                         <h2
                                             class="portfolio-modal-title text-secondary text-uppercase mb-0"
                                         >
-                                            Controller
+                                            Pandas
                                         </h2>
                                         <!-- Icon Divider-->
                                         <div class="divider-custom">
@@ -1351,26 +1358,19 @@
                                         <!-- Portfolio Modal - Image-->
                                         <img
                                             class="img-fluid rounded mb-5"
-                                            src="assets/img/portfolio/game.png"
+                                            src="./assets/img/portfolio/pandas-logo.png"
                                             alt="..."
                                         />
                                         <!-- Portfolio Modal - Text-->
                                         <p class="mb-4">
-                                            Lorem ipsum dolor sit amet,
-                                            consectetur adipisicing elit.
-                                            Mollitia neque assumenda ipsam
-                                            nihil, molestias magnam, recusandae
-                                            quos quis inventore quisquam velit
-                                            asperiores, vitae? Reprehenderit
-                                            soluta, eos quod consequuntur
-                                            itaque. Nam.
+                                            My first data analysis tools.
                                         </p>
                                         <button
                                             class="btn btn-primary"
                                             data-bs-dismiss="modal"
                                         >
                                             <i class="fas fa-xmark fa-fw"></i>
-                                            Close Window
+                                            關閉視窗
                                         </button>
                                     </div>
                                 </div>
@@ -1379,12 +1379,12 @@
                     </div>
                 </div>
             </div>
-            <!-- Portfolio Modal 5-->
+            <!-- Portfolio Modal numpy -->
             <div
                 class="portfolio-modal modal fade"
-                id="portfolioModal5"
+                id="portfolioModal-numpy"
                 tabindex="-1"
-                aria-labelledby="portfolioModal5"
+                aria-labelledby="portfolioModal-numpy"
                 aria-hidden="true"
             >
                 <div class="modal-dialog modal-xl">
@@ -1405,7 +1405,7 @@
                                         <h2
                                             class="portfolio-modal-title text-secondary text-uppercase mb-0"
                                         >
-                                            Locked Safe
+                                            Numpy
                                         </h2>
                                         <!-- Icon Divider-->
                                         <div class="divider-custom">
@@ -1422,26 +1422,20 @@
                                         <!-- Portfolio Modal - Image-->
                                         <img
                                             class="img-fluid rounded mb-5"
-                                            src="assets/img/portfolio/safe.png"
+                                            src="./assets/img/portfolio/numpy.png"
                                             alt="..."
                                         />
                                         <!-- Portfolio Modal - Text-->
                                         <p class="mb-4">
-                                            Lorem ipsum dolor sit amet,
-                                            consectetur adipisicing elit.
-                                            Mollitia neque assumenda ipsam
-                                            nihil, molestias magnam, recusandae
-                                            quos quis inventore quisquam velit
-                                            asperiores, vitae? Reprehenderit
-                                            soluta, eos quod consequuntur
-                                            itaque. Nam.
+                                            The fundamental package for
+                                            scientific computing with Python
                                         </p>
                                         <button
                                             class="btn btn-primary"
                                             data-bs-dismiss="modal"
                                         >
                                             <i class="fas fa-xmark fa-fw"></i>
-                                            Close Window
+                                            關閉視窗
                                         </button>
                                     </div>
                                 </div>
@@ -1450,12 +1444,12 @@
                     </div>
                 </div>
             </div>
-            <!-- Portfolio Modal 6-->
+            <!-- Portfolio Modal polars -->
             <div
                 class="portfolio-modal modal fade"
-                id="portfolioModal6"
+                id="portfolioModal-polars"
                 tabindex="-1"
-                aria-labelledby="portfolioModal6"
+                aria-labelledby="portfolioModal-polars"
                 aria-hidden="true"
             >
                 <div class="modal-dialog modal-xl">
@@ -1476,7 +1470,7 @@
                                         <h2
                                             class="portfolio-modal-title text-secondary text-uppercase mb-0"
                                         >
-                                            Submarine
+                                            Polars
                                         </h2>
                                         <!-- Icon Divider-->
                                         <div class="divider-custom">
@@ -1493,26 +1487,825 @@
                                         <!-- Portfolio Modal - Image-->
                                         <img
                                             class="img-fluid rounded mb-5"
-                                            src="assets/img/portfolio/submarine.png"
+                                            src="./assets/img/portfolio/polars-logo.jpg"
                                             alt="..."
                                         />
                                         <!-- Portfolio Modal - Text-->
                                         <p class="mb-4">
-                                            Lorem ipsum dolor sit amet,
-                                            consectetur adipisicing elit.
-                                            Mollitia neque assumenda ipsam
-                                            nihil, molestias magnam, recusandae
-                                            quos quis inventore quisquam velit
-                                            asperiores, vitae? Reprehenderit
-                                            soluta, eos quod consequuntur
-                                            itaque. Nam.
+                                            DataFrames for the new era:<br />Faster
+                                            than pandas<br />Easy to use
                                         </p>
                                         <button
                                             class="btn btn-primary"
                                             data-bs-dismiss="modal"
                                         >
                                             <i class="fas fa-xmark fa-fw"></i>
-                                            Close Window
+                                            關閉視窗
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Modal PostgreSQL -->
+            <div
+                class="portfolio-modal modal fade"
+                id="portfolioModal-postgresql"
+                tabindex="-1"
+                aria-labelledby="portfolioModal-postgresql"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header border-0">
+                            <button
+                                class="btn-close"
+                                type="button"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body text-center pb-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h2
+                                            class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                        >
+                                            PostgreSQL
+                                        </h2>
+                                        <!-- Icon Divider-->
+                                        <div class="divider-custom">
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                            <div class="divider-custom-icon">
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                        </div>
+                                        <!-- Portfolio Modal - Image-->
+                                        <img
+                                            class="img-fluid rounded mb-5"
+                                            src="./assets/img/portfolio/Postgresql_elephant.svg.png"
+                                            alt="..."
+                                        />
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">
+                                            The World's Most Advanced Open
+                                            Source Relational Database
+                                        </p>
+                                        <button
+                                            class="btn btn-primary"
+                                            data-bs-dismiss="modal"
+                                        >
+                                            <i class="fas fa-xmark fa-fw"></i>
+                                            關閉視窗
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Modal timescaledb -->
+            <div
+                class="portfolio-modal modal fade"
+                id="portfolioModal-timescaledb"
+                tabindex="-1"
+                aria-labelledby="portfolioModal-timescaledb"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header border-0">
+                            <button
+                                class="btn-close"
+                                type="button"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body text-center pb-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h2
+                                            class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                        >
+                                            Timescale Database
+                                        </h2>
+                                        <!-- Icon Divider-->
+                                        <div class="divider-custom">
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                            <div class="divider-custom-icon">
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                        </div>
+                                        <!-- Portfolio Modal - Image-->
+                                        <img
+                                            class="img-fluid rounded mb-5"
+                                            src="./assets/img/portfolio/timescaledb-logo.png"
+                                            alt="..."
+                                        />
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">
+                                            PostgreSQL ++ for time series and
+                                            events.
+                                        </p>
+                                        <button
+                                            class="btn btn-primary"
+                                            data-bs-dismiss="modal"
+                                        >
+                                            <i class="fas fa-xmark fa-fw"></i>
+                                            關閉視窗
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Modal Duckdb -->
+            <div
+                class="portfolio-modal modal fade"
+                id="portfolioModal-duckdb"
+                tabindex="-1"
+                aria-labelledby="portfolioModal-duckdb"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header border-0">
+                            <button
+                                class="btn-close"
+                                type="button"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body text-center pb-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h2
+                                            class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                        >
+                                            DuckDB
+                                        </h2>
+                                        <!-- Icon Divider-->
+                                        <div class="divider-custom">
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                            <div class="divider-custom-icon">
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                        </div>
+                                        <!-- Portfolio Modal - Image-->
+                                        <img
+                                            class="img-fluid rounded mb-5"
+                                            src="./assets/img/portfolio/DuckDB_Logo.png"
+                                            alt="..."
+                                        />
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">
+                                            DuckDB is an in-process SQL OLAP
+                                            database management system.<br />Simple,
+                                            feature-rich, fast & open source.
+                                        </p>
+                                        <button
+                                            class="btn btn-primary"
+                                            data-bs-dismiss="modal"
+                                        >
+                                            <i class="fas fa-xmark fa-fw"></i>
+                                            關閉視窗
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Modal Flask -->
+            <div
+                class="portfolio-modal modal fade"
+                id="portfolioModal-flask"
+                tabindex="-1"
+                aria-labelledby="portfolioModal-flask"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header border-0">
+                            <button
+                                class="btn-close"
+                                type="button"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body text-center pb-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h2
+                                            class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                        >
+                                            Flask
+                                        </h2>
+                                        <!-- Icon Divider-->
+                                        <div class="divider-custom">
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                            <div class="divider-custom-icon">
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                        </div>
+                                        <!-- Portfolio Modal - Image-->
+                                        <img
+                                            class="img-fluid rounded mb-5"
+                                            src="./assets/img/portfolio/Postgresql_elephant.svg.png"
+                                            alt="..."
+                                        />
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">
+                                            The Python micro framework for
+                                            building web applications.
+                                        </p>
+                                        <button
+                                            class="btn btn-primary"
+                                            data-bs-dismiss="modal"
+                                        >
+                                            <i class="fas fa-xmark fa-fw"></i>
+                                            關閉視窗
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Modal FastAPI -->
+            <div
+                class="portfolio-modal modal fade"
+                id="portfolioModal-fastapi"
+                tabindex="-1"
+                aria-labelledby="portfolioModal-fastapi"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header border-0">
+                            <button
+                                class="btn-close"
+                                type="button"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body text-center pb-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h2
+                                            class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                        >
+                                            FastAPI
+                                        </h2>
+                                        <!-- Icon Divider-->
+                                        <div class="divider-custom">
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                            <div class="divider-custom-icon">
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                        </div>
+                                        <!-- Portfolio Modal - Image-->
+                                        <img
+                                            class="img-fluid rounded mb-5"
+                                            src="./assets/img/portfolio/python-fastapi.jpg"
+                                            alt="..."
+                                        />
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">
+                                            FastAPI framework, high performance,
+                                            easy to learn, fast to code, ready
+                                            for production
+                                        </p>
+                                        <button
+                                            class="btn btn-primary"
+                                            data-bs-dismiss="modal"
+                                        >
+                                            <i class="fas fa-xmark fa-fw"></i>
+                                            關閉視窗
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Modal streamlit -->
+            <div
+                class="portfolio-modal modal fade"
+                id="portfolioModal-streamlit"
+                tabindex="-1"
+                aria-labelledby="portfolioModal-streamlit"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header border-0">
+                            <button
+                                class="btn-close"
+                                type="button"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body text-center pb-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h2
+                                            class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                        >
+                                            Streamlit
+                                        </h2>
+                                        <!-- Icon Divider-->
+                                        <div class="divider-custom">
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                            <div class="divider-custom-icon">
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                        </div>
+                                        <!-- Portfolio Modal - Image-->
+                                        <img
+                                            class="img-fluid rounded mb-5"
+                                            src="./assets/img/portfolio/streamlit.png"
+                                            alt="..."
+                                        />
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">
+                                            Streamlit is an open-source Python
+                                            framework for data scientists and
+                                            AI/ML engineers to deliver
+                                            interactive data apps – in only a
+                                            few lines of code.
+                                        </p>
+                                        <button
+                                            class="btn btn-primary"
+                                            data-bs-dismiss="modal"
+                                        >
+                                            <i class="fas fa-xmark fa-fw"></i>
+                                            關閉視窗
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Modal backtrader -->
+            <div
+                class="portfolio-modal modal fade"
+                id="portfolioModal-backtrader"
+                tabindex="-1"
+                aria-labelledby="portfolioModal-backtrader"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header border-0">
+                            <button
+                                class="btn-close"
+                                type="button"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body text-center pb-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h2
+                                            class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                        >
+                                            Backtrader
+                                        </h2>
+                                        <!-- Icon Divider-->
+                                        <div class="divider-custom">
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                            <div class="divider-custom-icon">
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                        </div>
+                                        <!-- Portfolio Modal - Image-->
+                                        <img
+                                            class="img-fluid rounded mb-5"
+                                            src="./assets/img/portfolio/backtrader-logo.png"
+                                            alt="..."
+                                        />
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">
+                                            python backtesting trading
+                                            algotrading algorithmic quant
+                                            quantitative analysis.
+                                        </p>
+                                        <button
+                                            class="btn btn-primary"
+                                            data-bs-dismiss="modal"
+                                        >
+                                            <i class="fas fa-xmark fa-fw"></i>
+                                            關閉視窗
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Modal pypy -->
+            <div
+                class="portfolio-modal modal fade"
+                id="portfolioModal-pypy"
+                tabindex="-1"
+                aria-labelledby="portfolioModal-pypy"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header border-0">
+                            <button
+                                class="btn-close"
+                                type="button"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body text-center pb-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h2
+                                            class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                        >
+                                            PyPy
+                                        </h2>
+                                        <!-- Icon Divider-->
+                                        <div class="divider-custom">
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                            <div class="divider-custom-icon">
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                        </div>
+                                        <!-- Portfolio Modal - Image-->
+                                        <img
+                                            class="img-fluid rounded mb-5"
+                                            src="./assets/img/portfolio/pypy-logo.png"
+                                            alt="..."
+                                        />
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">
+                                            PyPy is an implementation of the
+                                            Python programming language.<br />
+                                            PyPy often runs faster than the
+                                            standard implementation CPython
+                                            because PyPy uses a just-in-time
+                                            compiler.
+                                        </p>
+                                        <button
+                                            class="btn btn-primary"
+                                            data-bs-dismiss="modal"
+                                        >
+                                            <i class="fas fa-xmark fa-fw"></i>
+                                            關閉視窗
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Modal vim -->
+            <div
+                class="portfolio-modal modal fade"
+                id="portfolioModal-vim"
+                tabindex="-1"
+                aria-labelledby="portfolioModal-vim"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header border-0">
+                            <button
+                                class="btn-close"
+                                type="button"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body text-center pb-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h2
+                                            class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                        >
+                                            Vim
+                                        </h2>
+                                        <!-- Icon Divider-->
+                                        <div class="divider-custom">
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                            <div class="divider-custom-icon">
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                        </div>
+                                        <!-- Portfolio Modal - Image-->
+                                        <img
+                                            class="img-fluid rounded mb-5"
+                                            src="./assets/img/portfolio/Vimlogo.svg.png"
+                                            alt="..."
+                                        />
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">
+                                            Vim is a highly configurable text
+                                            editor built to make creating and
+                                            changing any kind of text very
+                                            efficient.<br />It is included as
+                                            "vi" with most UNIX systems and with
+                                            Apple OS X.<br /><br />
+                                            Vim is rock stable and is
+                                            continuously being developed to
+                                            become even better. Among its
+                                            features are:<br />
+                                            persistent, multi-level undo tree<br />
+                                            extensive plugin system<br />
+                                            support for hundreds of programming
+                                            languages and file formats<br />
+                                            powerful search and replace<br />
+                                            integrates with many tools
+                                        </p>
+                                        <button
+                                            class="btn btn-primary"
+                                            data-bs-dismiss="modal"
+                                        >
+                                            <i class="fas fa-xmark fa-fw"></i>
+                                            關閉視窗
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Modal Neovim -->
+            <div
+                class="portfolio-modal modal fade"
+                id="portfolioModal-neovim"
+                tabindex="-1"
+                aria-labelledby="portfolioModal-neovim"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header border-0">
+                            <button
+                                class="btn-close"
+                                type="button"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body text-center pb-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h2
+                                            class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                        >
+                                            Neovim
+                                        </h2>
+                                        <!-- Icon Divider-->
+                                        <div class="divider-custom">
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                            <div class="divider-custom-icon">
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                        </div>
+                                        <!-- Portfolio Modal - Image-->
+                                        <img
+                                            class="img-fluid rounded mb-5"
+                                            src="./assets/img/portfolio/neovim-logo.jpg"
+                                            alt="..."
+                                        />
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">
+                                            Vim-fork focused on extensibility
+                                            and usability.
+                                        </p>
+                                        <button
+                                            class="btn btn-primary"
+                                            data-bs-dismiss="modal"
+                                        >
+                                            <i class="fas fa-xmark fa-fw"></i>
+                                            關閉視窗
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Modal lazyvim -->
+            <div
+                class="portfolio-modal modal fade"
+                id="portfolioModal-lazyvim"
+                tabindex="-1"
+                aria-labelledby="portfolioModal-lazyvim"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header border-0">
+                            <button
+                                class="btn-close"
+                                type="button"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body text-center pb-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h2
+                                            class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                        >
+                                            Lazyvim
+                                        </h2>
+                                        <!-- Icon Divider-->
+                                        <div class="divider-custom">
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                            <div class="divider-custom-icon">
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                        </div>
+                                        <!-- Portfolio Modal - Image-->
+                                        <img
+                                            class="img-fluid rounded mb-5"
+                                            src="./assets/img/portfolio/lazyvim.png"
+                                            alt="..."
+                                        />
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">
+                                            LazyVim is a Neovim setup powered by
+                                            💤 lazy.nvim to make it easy to
+                                            customize and extend your config.
+                                        </p>
+                                        <button
+                                            class="btn btn-primary"
+                                            data-bs-dismiss="modal"
+                                        >
+                                            <i class="fas fa-xmark fa-fw"></i>
+                                            關閉視窗
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Modal nvim-treesitter -->
+            <div
+                class="portfolio-modal modal fade"
+                id="portfolioModal-nvim-treesitter"
+                tabindex="-1"
+                aria-labelledby="portfolioModal-nvim-treesitter"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header border-0">
+                            <button
+                                class="btn-close"
+                                type="button"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body text-center pb-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h2
+                                            class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                        >
+                                            Neovim Treesitter
+                                        </h2>
+                                        <!-- Icon Divider-->
+                                        <div class="divider-custom">
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                            <div class="divider-custom-icon">
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div
+                                                class="divider-custom-line"
+                                            ></div>
+                                        </div>
+                                        <!-- Portfolio Modal - Image-->
+                                        <img
+                                            class="img-fluid rounded mb-5"
+                                            src="./assets/img/portfolio/neovim-treesitter-logo.png"
+                                            alt="..."
+                                        />
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">
+                                            Nvim Treesitter configurations and
+                                            abstraction layer
+                                        </p>
+                                        <button
+                                            class="btn btn-primary"
+                                            data-bs-dismiss="modal"
+                                        >
+                                            <i class="fas fa-xmark fa-fw"></i>
+                                            關閉視窗
                                         </button>
                                     </div>
                                 </div>
