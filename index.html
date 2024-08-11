@@ -29,6 +29,15 @@
         />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            .text-shadow {
+                text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+                color: #90EE90; /* Light green color */
+            }
+            .card-size {
+                "width: 100px;height: auto;"
+            }
+        </style>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -58,49 +67,49 @@
                             <a
                                 class="nav-link py-3 px-0 px-lg-3 rounded"
                                 href="#carousel-section"
-                                >Carousel</a
+                                >作品集</a
                             >
                         </li>
                         <li class="nav-item mx-0 mx-lg-1">
                             <a
                                 class="nav-link py-3 px-0 px-lg-3 rounded"
-                                href="#portfolio"
-                                >Portfolio</a
+                                href="#tools"
+                                >工具介紹</a
                             >
                         </li>
                         <li class="nav-item mx-0 mx-lg-1">
                             <a
                                 class="nav-link py-3 px-0 px-lg-3 rounded"
                                 href="#cards"
-                                >Cards</a
+                                >學習資源</a
                             >
                         </li>
                         <li class="nav-item mx-0 mx-lg-1">
                             <a
                                 class="nav-link py-3 px-0 px-lg-3 rounded"
                                 href="#videos"
-                                >Videos</a
+                                >學習影片</a
                             >
                         </li>
                         <li class="nav-item mx-0 mx-lg-1">
                             <a
                                 class="nav-link py-3 px-0 px-lg-3 rounded"
                                 href="#maps"
-                                >Maps</a
+                                >地圖</a
                             >
                         </li>
                         <li class="nav-item mx-0 mx-lg-1">
                             <a
                                 class="nav-link py-3 px-0 px-lg-3 rounded"
                                 href="#about"
-                                >About</a
+                                >關於我</a
                             >
                         </li>
                         <li class="nav-item mx-0 mx-lg-1">
                             <a
                                 class="nav-link py-3 px-0 px-lg-3 rounded"
                                 href="#contact"
-                                >Contact</a
+                                >與我聯絡</a
                             >
                         </li>
                     </ul>
@@ -141,7 +150,7 @@
             <div id="carousel" class="carousel slide" data-bs-ride="carousel">
                 <!-- Map Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase">
-                    相簿
+                    作品集
                 </h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
@@ -172,7 +181,7 @@
                     ></button>
                 </div>
                 <!-- The slideshow/carousel -->
-                <div class="carousel-inner">
+                <div class="carousel-inner text-shadow">
                     <div class="carousel-item active">
                         <img
                             src="./assets/img/carousel/c01.jpg"
@@ -256,7 +265,7 @@
         <!-- Portfolio 彈窗  Section-->
         <section
             class="page-section portfolio bg-primary text-white mb-0"
-            id="portfolio"
+            id="tools"
         >
             <div class="container">
                 <!-- Portfolio Section Heading-->
@@ -296,13 +305,14 @@
                                 class="img-fluid"
                                 src="./assets/img/portfolio/Mysql_logo.png"
                                 alt="..."
+                                style="width: 200px; height: auto"
                             />
                         </div>
                     </div>
                     <!-- Portfolio Item python -->
-                    <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="col-md-6 col-lg-4 mb-5 d-flex">
                         <div
-                            class="portfolio-item mx-auto d-block"
+                            class="portfolio-item mx-auto align-self-center"
                             data-bs-toggle="modal"
                             data-bs-target="#portfolioModal-python"
                         >
@@ -319,6 +329,7 @@
                                 class="img-fluid"
                                 src="./assets/img/portfolio/python-logo.jpg"
                                 alt="..."
+                                style="width: 200px; height: auto"
                             />
                         </div>
                     </div>
@@ -342,6 +353,7 @@
                                 class="img-fluid"
                                 src="./assets/img/portfolio/pandas-logo.png"
                                 alt="..."
+                                style="width: 200px; height: auto"
                             />
                         </div>
                     </div>
@@ -365,6 +377,7 @@
                                 class="img-fluid"
                                 src="./assets/img/portfolio/numpy.png"
                                 alt="..."
+                                style="width: 200px; height: auto"
                             />
                         </div>
                     </div>
@@ -388,6 +401,7 @@
                                 class="img-fluid"
                                 src="./assets/img/portfolio/polars-logo.jpg"
                                 alt="..."
+                                style="width: 200px; height: auto"
                             />
                         </div>
                     </div>
@@ -411,6 +425,7 @@
                                 class="img-fluid"
                                 src="./assets/img/portfolio/Postgresql_elephant.svg.png"
                                 alt="..."
+                                style="width: 200px; height: auto"
                             />
                         </div>
                     </div>
@@ -434,6 +449,7 @@
                                 class="img-fluid"
                                 src="./assets/img/portfolio/timescaledb-logo.png"
                                 alt="..."
+                                style="width: 200px; height: auto"
                             />
                         </div>
                     </div>
@@ -457,6 +473,7 @@
                                 class="img-fluid"
                                 src="./assets/img/portfolio/DuckDB_Logo.png"
                                 alt="..."
+                                style="width: 200px; height: auto"
                             />
                         </div>
                     </div>
@@ -480,6 +497,7 @@
                                 class="img-fluid"
                                 src="./assets/img/portfolio/python-flask.png"
                                 alt="..."
+                                style="width: 200px; height: auto"
                             />
                         </div>
                     </div>
@@ -503,6 +521,7 @@
                                 class="img-fluid"
                                 src="./assets/img/portfolio/python-fastapi.jpg"
                                 alt="..."
+                                style="width: 200px; height: auto"
                             />
                         </div>
                     </div>
@@ -526,6 +545,7 @@
                                 class="img-fluid"
                                 src="./assets/img/portfolio/streamlit.png"
                                 alt="..."
+                                style="width: 200px; height: auto"
                             />
                         </div>
                     </div>
@@ -549,6 +569,7 @@
                                 class="img-fluid"
                                 src="./assets/img/portfolio/backtrader-logo.png"
                                 alt="..."
+                                style="width: 200px; height: auto"
                             />
                         </div>
                     </div>
@@ -572,6 +593,7 @@
                                 class="img-fluid"
                                 src="./assets/img/portfolio/pypy-logo.png"
                                 alt="..."
+                                style="width: 200px; height: auto"
                             />
                         </div>
                     </div>
@@ -595,6 +617,7 @@
                                 class="img-fluid"
                                 src="./assets/img/portfolio/Vimlogo.svg.png"
                                 alt="..."
+                                style="width: 200px; height: auto"
                             />
                         </div>
                     </div>
@@ -618,6 +641,7 @@
                                 class="img-fluid"
                                 src="./assets/img/portfolio/neovim-logo.jpg"
                                 alt="..."
+                                style="width: 200px; height: auto"
                             />
                         </div>
                     </div>
@@ -641,6 +665,7 @@
                                 class="img-fluid"
                                 src="./assets/img/portfolio/lazyvim.png"
                                 alt="..."
+                                style="width: 200px; height: auto"
                             />
                         </div>
                     </div>
@@ -664,6 +689,7 @@
                                 class="img-fluid"
                                 src="./assets/img/portfolio/neovim-treesitter-logo.png"
                                 alt="..."
+                                style="width: 200px; height: auto"
                             />
                         </div>
                     </div>
@@ -687,6 +713,7 @@
                                 class="img-fluid"
                                 src="./assets/img/portfolio/mql5.png"
                                 alt="..."
+                                style="width: 200px; height: auto"
                             />
                         </div>
                     </div>
@@ -698,13 +725,28 @@
             <div class="container">
                 <!-- Map Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase">
-                    卡片
+                    學習資源
                 </h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon">
-                        <i class="fas fa-star"></i>
+                        <svg
+                            class="svg-inline--fa fa-star"
+                            aria-hidden="true"
+                            focusable="false"
+                            data-prefix="fas"
+                            data-icon="star"
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 576 512"
+                            data-fa-i2svg=""
+                        >
+                            <path
+                                fill="currentColor"
+                                d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+                            ></path></svg
+                        ><!-- <i class="fas fa-star"></i> Font Awesome fontawesome.com -->
                     </div>
                     <div class="divider-custom-line"></div>
                 </div>
@@ -714,99 +756,180 @@
                     <div class="col-lg-4 col-md-6">
                         <img
                             class="card-img-top"
-                            src="../bootstrap4/img_avatar1.png"
                             alt="Card image"
-                            style="width: 100%"
+                            src="https://gitbook.tw/assets/images/tw/etc/gitbook.png"
+                            style="width: 150px; height: auto"
                         />
                         <div class="card-body">
-                            <h4 class="card-title">John Doe</h4>
-                            <p class="card-text">
-                                Some example text some example text. John Doe is
-                                an architect and engineer
-                            </p>
-                            <a href="" class="btn btn-primary">See Profile</a>
+                            <h4 class="card-title">為你自己學Git</h4>
+                            <p class="card-text">適合初學者的Git</p>
+                            <a
+                                href="https://gitbook.tw/"
+                                class="btn btn-primary"
+                                >網站</a
+                            >
                         </div>
                     </div>
                     <!-- Card Item -->
                     <div class="col-lg-4 col-md-6">
                         <img
                             class="card-img-top"
-                            src="../bootstrap4/img_avatar1.png"
+                            src="./assets/img/card/Philomatics.jpg"
                             alt="Card image"
-                            style="width: 100%"
+                            style="width: 150px; height: auto"
                         />
                         <div class="card-body">
-                            <h4 class="card-title">John Doe</h4>
-                            <p class="card-text">
-                                Some example text some example text. John Doe is
-                                an architect and engineer
-                            </p>
-                            <a href="" class="btn btn-primary">See Profile</a>
+                            <h4 class="card-title">Philomatics</h4>
+                            <p class="card-text">Git教學</p>
+                            <a
+                                href="https://www.youtube.com/@philomatics"
+                                class="btn btn-primary"
+                                >Youtube頻道</a
+                            >
                         </div>
                     </div>
+                    <!-- Card Item -->
                     <div class="col-lg-4 col-md-6">
                         <img
                             class="card-img-top"
-                            src="../bootstrap4/img_avatar1.png"
+                            src="./assets/img/card/TechWithTim.jpg"
                             alt="Card image"
-                            style="width: 100%"
+                            style="width: 150px; height: auto"
                         />
                         <div class="card-body">
-                            <h4 class="card-title">John Doe</h4>
-                            <p class="card-text">
-                                Some example text some example text. John Doe is
-                                an architect and engineer
-                            </p>
-                            <a href="" class="btn btn-primary">See Profile</a>
+                            <h4 class="card-title">TechWithTim</h4>
+                            <p class="card-text">各種程式教學</p>
+                            <a
+                                href="https://www.youtube.com/@TechWithTim"
+                                class="btn btn-primary"
+                                >Youtube頻道</a
+                            >
                         </div>
                     </div>
+                    <!-- Card Item -->
                     <div class="col-lg-4 col-md-6">
                         <img
                             class="card-img-top"
-                            src="../bootstrap4/img_avatar1.png"
+                            src="./assets/img/card/RealPython.svg"
                             alt="Card image"
-                            style="width: 100%"
+                            style="width: 150px; height: auto"
                         />
                         <div class="card-body">
-                            <h4 class="card-title">John Doe</h4>
-                            <p class="card-text">
-                                Some example text some example text. John Doe is
-                                an architect and engineer
-                            </p>
-                            <a href="" class="btn btn-primary">See Profile</a>
+                            <h4 class="card-title">RealPython</h4>
+                            <p class="card-text">Python教學與potcast</p>
+                            <a
+                                href="https://realpython.com/"
+                                class="btn btn-primary"
+                                >Youtube頻道</a
+                            >
                         </div>
                     </div>
-
+                    <!-- Card Item -->
                     <div class="col-lg-4 col-md-6">
                         <img
                             class="card-img-top"
-                            src="../bootstrap4/img_avatar1.png"
+                            src="./assets/img/card/indently.jpg"
                             alt="Card image"
-                            style="width: 100%"
+                            style="width: 150px; height: auto"
                         />
                         <div class="card-body">
-                            <h4 class="card-title">John Doe</h4>
-                            <p class="card-text">
-                                Some example text some example text. John Doe is
-                                an architect and engineer
-                            </p>
-                            <a href="" class="btn btn-primary">See Profile</a>
+                            <h4 class="card-title">Indently</h4>
+                            <p class="card-text">Python講得不錯</p>
+                            <a
+                                href="https://www.youtube.com/@Indently"
+                                class="btn btn-primary"
+                                >Youtube頻道</a
+                            >
                         </div>
                     </div>
+                    <!-- Card Item -->
                     <div class="col-lg-4 col-md-6">
                         <img
                             class="card-img-top"
-                            src="../bootstrap4/img_avatar1.png"
+                            src="./assets/img/card/NeuralNine.jpg"
                             alt="Card image"
-                            style="width: 100%"
+                            style="width: 150px; height: auto"
                         />
                         <div class="card-body">
-                            <h4 class="card-title">John Doe</h4>
-                            <p class="card-text">
-                                Some example text some example text. John Doe is
-                                an architect and engineer
-                            </p>
-                            <a href="" class="btn btn-primary">See Profile</a>
+                            <h4 class="card-title">NeuralNine</h4>
+                            <p class="card-text">Python專題實作</p>
+                            <a
+                                href="https://www.youtube.com/@NeuralNine"
+                                class="btn btn-primary"
+                                >Youtube頻道</a
+                            >
+                        </div>
+                    </div>
+                    <!-- Card Item -->
+                    <div class="col-lg-4 col-md-6">
+                        <img
+                            class="card-img-top"
+                            src="./assets/img/card/PythonProgrammer.jpg"
+                            alt="Card image"
+                            style="width: 150px; height: auto"
+                        />
+                        <div class="card-body">
+                            <h4 class="card-title">PythonProgrammer</h4>
+                            <p class="card-text">Python教學</p>
+                            <a
+                                href="https://www.youtube.com/@gilesmcmullen"
+                                class="btn btn-primary"
+                                >Youtube頻道</a
+                            >
+                        </div>
+                    </div>
+                    <!-- Card Item -->
+                    <div class="col-lg-4 col-md-6">
+                        <img
+                            class="card-img-top"
+                            src="./assets/img/card/KeithGalli.jpg"
+                            alt="Card image"
+                            style="width: 150px; height: auto"
+                        />
+                        <div class="card-body">
+                            <h4 class="card-title">KeithGalli</h4>
+                            <p class="card-text">Python教學</p>
+                            <a
+                                href="https://www.youtube.com/@keithgalli"
+                                class="btn btn-primary"
+                                >Youtube頻道</a
+                            >
+                        </div>
+                    </div>
+                    <!-- Card Item -->
+                    <div class="col-lg-4 col-md-6">
+                        <img
+                            class="card-img-top"
+                            src="./assets/img/card/typecraft.jpg"
+                            alt="Card image"
+                            style="width: 150px; height: auto"
+                        />
+                        <div class="card-body">
+                            <h4 class="card-title">typecraft</h4>
+                            <p class="card-text">DevOps跟Neovim教學</p>
+                            <a
+                                href="https://www.youtube.com/@typecraft_dev"
+                                class="btn btn-primary"
+                                >Youtube頻道</a
+                            >
+                        </div>
+                    </div>
+                    <!-- Card Item -->
+                    <div class="col-lg-4 col-md-6">
+                        <img
+                            class="card-img-top"
+                            src="./assets/img/card/DevOpsToolbox.jpg"
+                            alt="Card image"
+                            style="width: 150px; height: auto"
+                        />
+                        <div class="card-body">
+                            <h4 class="card-title">DevOpsToolbox</h4>
+                            <p class="card-text">DevOps跟Neovim教學</p>
+                            <a
+                                href="https://www.youtube.com/@devopstoolbox"
+                                class="btn btn-primary"
+                                >Youtube頻道</a
+                            >
                         </div>
                     </div>
                 </div>
@@ -819,7 +942,7 @@
                 <h2
                     class="page-section-heading text-center text-uppercase text-white"
                 >
-                    影片
+                    學習影片
                 </h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
@@ -900,7 +1023,7 @@
                 <h2
                     class="page-section-heading text-center text-uppercase text-white"
                 >
-                    About
+                    關於我
                 </h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
@@ -910,35 +1033,21 @@
                     </div>
                     <div class="divider-custom-line"></div>
                 </div>
+                <h2 class="text-center text-uppercase text-white">
+                    軟體設計哲學
+                </h2>
                 <!-- About Section Content-->
                 <div class="row">
                     <div class="col-lg-4 ms-auto">
-                        <p class="lead">
-                            Freelancer is a free bootstrap theme created by
-                            Start Bootstrap. The download includes the complete
-                            source files including HTML, CSS, and JavaScript as
-                            well as optional SASS stylesheets for easy
-                            customization.
-                        </p>
+                        <h5 class="text-center">建立自動化流程解放雙手</h5>
+                        <p class="lead">讓人可以專注在有意義的思科與決策上</p>
                     </div>
                     <div class="col-lg-4 me-auto">
+                        <h5 class="text-center">駕馭AI但不依賴AI</h5>
                         <p class="lead">
-                            You can create your own custom avatar for the
-                            masthead, change the icon in the dividers, and add
-                            your email address to the contact form to make it
-                            fully functional!
+                            最終的結果決策判斷還是要 靠人類來負責
                         </p>
                     </div>
-                </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a
-                        class="btn btn-xl btn-outline-light"
-                        href="https://startbootstrap.com/theme/freelancer/"
-                    >
-                        <i class="fas fa-download me-2"></i>
-                        Free Download!
-                    </a>
                 </div>
             </div>
         </section>
@@ -949,7 +1058,7 @@
                 <h2
                     class="page-section-heading text-center text-uppercase text-secondary mb-0"
                 >
-                    Contact Me
+                    與我聯絡
                 </h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
@@ -961,128 +1070,16 @@
                 </div>
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form
-                            id="contactForm"
-                            data-sb-form-api-token="API_TOKEN"
+                    <div class="col-lg-8 col-xl-7" id="contactForm">
+                        <iframe
+                            src="https://docs.google.com/forms/d/e/1FAIpQLSdu7JLDaPpSI56IVYXlm9OMg-pPkuqeoiPOFlApqWxgy8s56Q/viewform?embedded=true"
+                            width="640"
+                            height="856"
+                            frameborder="0"
+                            marginheight="0"
+                            marginwidth="0"
+                            >Loading…</iframe
                         >
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input
-                                    class="form-control"
-                                    id="name"
-                                    type="text"
-                                    placeholder="Enter your name..."
-                                    data-sb-validations="required"
-                                />
-                                <label for="name">Full name</label>
-                                <div
-                                    class="invalid-feedback"
-                                    data-sb-feedback="name:required"
-                                >
-                                    A name is required.
-                                </div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input
-                                    class="form-control"
-                                    id="email"
-                                    type="email"
-                                    placeholder="name@example.com"
-                                    data-sb-validations="required,email"
-                                />
-                                <label for="email">Email address</label>
-                                <div
-                                    class="invalid-feedback"
-                                    data-sb-feedback="email:required"
-                                >
-                                    An email is required.
-                                </div>
-                                <div
-                                    class="invalid-feedback"
-                                    data-sb-feedback="email:email"
-                                >
-                                    Email is not valid.
-                                </div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input
-                                    class="form-control"
-                                    id="phone"
-                                    type="tel"
-                                    placeholder="(123) 456-7890"
-                                    data-sb-validations="required"
-                                />
-                                <label for="phone">Phone number</label>
-                                <div
-                                    class="invalid-feedback"
-                                    data-sb-feedback="phone:required"
-                                >
-                                    A phone number is required.
-                                </div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea
-                                    class="form-control"
-                                    id="message"
-                                    type="text"
-                                    placeholder="Enter your message here..."
-                                    style="height: 10rem"
-                                    data-sb-validations="required"
-                                ></textarea>
-                                <label for="message">Message</label>
-                                <div
-                                    class="invalid-feedback"
-                                    data-sb-feedback="message:required"
-                                >
-                                    A message is required.
-                                </div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">
-                                        Form submission successful!
-                                    </div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a
-                                        href="https://startbootstrap.com/solution/contact-forms"
-                                        >https://startbootstrap.com/solution/contact-forms</a
-                                    >
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage">
-                                <div class="text-center text-danger mb-3">
-                                    Error sending message!
-                                </div>
-                            </div>
-                            <!-- Submit Button-->
-                            <button
-                                class="btn btn-primary btn-xl disabled"
-                                id="submitButton"
-                                type="submit"
-                            >
-                                Send
-                            </button>
-                        </form>
                     </div>
                 </div>
             </div>
@@ -2349,6 +2346,6 @@
         <!-- * *                               SB Forms JS                               * *-->
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
     </body>
 </html>
