@@ -142,125 +142,63 @@
                 </p>
             </div>
         </header>
+
         <!-- Carousel Section -->
-        <!-- 可以放一些自己研究過的東西,或看過的動畫?
-        obsidian, neovim, WSL, streamlit -->
+
+
         <section class="page-section" id="carousel-section">
-            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div id="carousel" class="carousel slide" data-ride="carousel" data-bs-ride="carousel">
                 <!-- Map Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase">
-                    作品集
-                </h2>
+                <h2 class="page-section-heading text-center text-uppercase"> 作品集 </h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                        <i class="fas fa-star"></i>
-                    </div>
+                    <div class="divider-custom-icon"> <i class="fas fa-star"></i> </div>
                     <div class="divider-custom-line"></div>
                 </div>
-
                 <!-- Indicators/dots -->
-                <div class="carousel-indicators">
-                    <button
-                        type="button"
-                        data-bs-target="#carousel"
-                        data-bs-slide-to="0"
-                        class="active"
-                    ></button>
-                    <button
-                        type="button"
-                        data-bs-target="#carousel"
-                        data-bs-slide-to="1"
-                    ></button>
-                    <button
-                        type="button"
-                        data-bs-target="#carousel"
-                        data-bs-slide-to="2"
-                    ></button>
+                <div class="carousel-indicators text-shadow">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="bg-primary active" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" class="bg-primary" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" class="bg-primary" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" class="bg-primary" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" class="bg-primary" ></button>
                 </div>
                 <!-- The slideshow/carousel -->
                 <div class="carousel-inner text-shadow">
                     <div class="carousel-item active">
-                        <img
-                            src="./assets/img/carousel/c01.jpg"
-                            alt="yolo-cat-dog-detect"
-                            class="d-block"
-                            style="width: 100%"
-                        />
-                        <div class="carousel-caption">
-                            <h3>YOLOv8及時影像辨識貓狗</h3>
-                            <p>使用YOLOv8預訓練模型+貓狗圖片增強式學習</p>
-                        </div>
+                        <img src="./assets/img/carousel/c01.jpg" alt="yolo-cat-dog-detect" class="d-block w-100" style="width: 100%" />
+                        <div class="carousel-caption"> <h3>YOLOv8及時影像辨識貓狗</h3> <p>使用YOLOv8預訓練模型+貓狗圖片增強式學習</p> </div>
                     </div>
                     <div class="carousel-item">
-                        <img
-                            src="./assets/img/carousel/c02.png"
-                            alt="BBC-crawler"
-                            class="d-block"
-                            style="width: 100%"
-                        />
-                        <div class="carousel-caption">
-                            <h3>BBC新聞爬蟲</h3>
-                            <p>使用requests + BesutifulSoup</p>
-                        </div>
+                        <img src="./assets/img/carousel/c02.png" alt="BBC-crawler" class="d-block w-100" style="width: 100%" />
+                        <div class="carousel-caption"> <h3>BBC新聞爬蟲</h3> <p>使用requests + BesutifulSoup</p> </div>
                     </div>
                     <div class="carousel-item">
-                        <img
-                            src="./assets/img/carousel/c04.png"
-                            alt="stock-price-chart"
-                            class="d-block"
-                            style="width: 100%"
-                        />
-                        <div class="carousel-caption">
-                            <h3>股價趨勢圖</h3>
-                            <p>使用pandas + matplotlib畫技術指標</p>
-                        </div>
+                        <img src="./assets/img/carousel/c04.png" alt="stock-price-chart" class="d-block w-100" style="width: 100%" />
+                        <div class="carousel-caption"> <h3>股價趨勢圖</h3> <p>使用pandas + matplotlib畫技術指標</p> </div>
                     </div>
                     <div class="carousel-item">
-                        <img
-                            src="./assets/img/carousel/c05.png"
-                            alt="line-notify-send-image"
-                            class="d-block"
-                            style="width: 100%"
-                        />
-                        <div class="carousel-caption">
-                            <h3>LineNotify</h3>
-                            <p>使用LineNotify傳送訊息與截圖</p>
-                        </div>
+                        <img src="./assets/img/carousel/c05.png" alt="line-notify-send-image" class="d-block w-100" style="width: 100%" />
+                        <div class="carousel-caption"> <h3>LineNotify</h3> <p>使用LineNotify傳送訊息與截圖</p> </div>
                     </div>
                     <div class="carousel-item">
-                        <img
-                            src="./assets/img/carousel/c06.png"
-                            alt="py-game-dice-game"
-                            class="d-block"
-                            style="width: 100%"
-                        />
-                        <div class="carousel-caption">
-                            <h3>PyGame十八辣</h3>
-                            <p>使用PyGame + Tkinter製作GUI十八辣遊戲</p>
-                        </div>
+                        <img src="./assets/img/carousel/c06.png" alt="py-game-dice-game" class="d-block w-100" style="width: 100%" />
+                        <div class="carousel-caption"> <h3>PyGame十八辣</h3> <p>使用PyGame + Tkinter製作GUI十八辣遊戲</p> </div>
                     </div>
                 </div>
                 <!-- Left and right controls/icons -->
-                <button
-                    class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#carousel"
-                    data-bs-slide="prev"
-                >
-                    <span class="carousel-control-prev-icon"></span>
+                <button class="carousel-control-prev text-primary" href="#carousel" role="button" type="button" data-target="#carousel" data-slide="prev" data-bs-target="#carousel" data-bs-slide="prev" >
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
                 </button>
-                <button
-                    class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#carousel"
-                    data-bs-slide="next"
-                >
-                    <span class="carousel-control-next-icon"></span>
+                <button class="carousel-control-next text-primary" href="#carousel" role="button" type="button" data-target="#carousel" data-slide="next" data-bs-target="#carousel" data-bs-slide="next" >
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
                 </button>
             </div>
         </section>
+
         <!-- Portfolio 彈窗  Section-->
         <section
             class="page-section portfolio bg-primary text-white mb-0"
@@ -719,6 +657,7 @@
                 </div>
             </div>
         </section>
+
         <!-- Cards Section-->
         <section class="page-section mb-0" id="websites">
             <div class="container d-flex align-items-center flex-column text-center bg-white text-black ">
@@ -934,6 +873,7 @@
                 </div>
             </div>
         </section>
+
         <!-- 這裏要加入Youtube連結 -->
         <!-- Embed Video iFrame Section-->
         <section class="page-section bg-warning text-center mb-0" id="videos">
@@ -1009,6 +949,7 @@
                 </div>
             </div>
         </section>
+
         <!-- 這裏要加入googlemap -->
         <!-- Embed Map iFrame Section-->
         <section class="page-section mb-0 bg-danger" id="maps">
@@ -1034,6 +975,7 @@
                 </div>
             </div>
         </section>
+
         <!-- About Section-->
         <!-- 兩個區段+下載連結 -->
         <section class="page-section bg-primary text-white mb-0" id="about">
@@ -1070,8 +1012,8 @@
                 </div>
             </div>
         </section>
-        <!-- Contact Section-->
 
+        <!-- Contact Section-->
         <section class="page-section" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
@@ -1161,6 +1103,7 @@
                 <small>Copyright &copy; Hydra Kane 2024</small>
             </div>
         </div>
+
         <!-- Portfolio Modals-->
         <!-- 彈窗相關內容都在這裏 -->
         <section id="modal-sections">
@@ -2365,4 +2308,12 @@
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
     </body>
+    <script>
+        /*$(window).on('resize', function() {
+          $('#carousel').carousel('pause').carousel(0);
+        });
+        $(window).on('resize', function() {
+          $('#carousel1').carousel('pause').carousel(0);
+        });*/
+    </script>
 </html>
